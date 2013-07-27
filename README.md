@@ -3,7 +3,7 @@ Yakuter Rastgele Sözler Eklentisi
 
 Yakuter Rastgele Sözler Eklentisi, WordPress günlüklerinizin istediğiniz herhangi bir yerinde rastgele söz/metin/resim gibi içerikler görüntülemenize yardımcı olması maksadıyla tarafımdan yazılmış bi Wordpress eklentisidir.
 
-// Sürüm Bilgisi ve Özellikleri
+## Sürüm Bilgisi ve Özellikleri
 Yakuter Rastgele Sözler Eklentisi'nin mevcut sürümü 4.0 olup aşağıdaki özellikleri içermektedir.
 
 * Yönetim panelindeki menüsünden dilediğiniz kadar içerik girebilir ve sitede bunların rastgele görüntülenmesini sağlayabilirsiniz.
@@ -13,13 +13,13 @@ Yakuter Rastgele Sözler Eklentisi'nin mevcut sürümü 4.0 olup aşağıdaki ö
 * Söz ekleme panelinde Quicktag’lerden faydalanarak kullanışlı bir düzenleyicinin keyfini çıkarabilirsiniz.
 * HTML etiketleri vasıtasıyla içerik olarak resim girebilir ve sitenizde rastgele resim görüntülenmesini sağlayabilirsiniz.
 
-// İndirme ve Kurulum
+## İndirme ve Kurulum
 * Öncelikle eklentiyi ysoz.php dosyasını indirin.
 * İndirdiğiniz paketin içinden çıkan ysoz.php dosyasını sitenizin /wp-content/plugins/ dizinine yükleyin.
 * Sitenizin Yönetim Paneli'nden, Eklentiler bölümünde Yakuter Rastgele Sözler eklentisini aktif hale getirin.
 * Kurulum bu kadar. Artık Yönetim Paneli -> Eklentiler -> Rastgele Sözler bölümünden mevcut sözleri görebilir, bunları düzenleyebilir, silebilir ya da yeni söz girebilirsiniz.
 
-// Kullanımı
+## Kullanımı
 Rastgele söz/resim vb. içeriğin temanızda görünmesini istediğiniz yere aşağıdaki kodu girerek kaydetmiş olduğunuz içeriğin rastgele görünmesini sağlayabilirsiniz.
 
 <?php ysoz(); ?>
@@ -28,7 +28,7 @@ Sabit olarak bir sözü görüntülemek istiyorsanız sözün ID numarasını ko
 
 <?php ysoz('9'); ?>
 
-// Güncelleme Notları
+## Güncelleme Notları
 4.0 (11/07/2013)
 * Wordpress 3.5 ile uyumlu hale getirildi.
 * Yazı düzenleyici WordPress’in standart düzenleyicisine dönüştürüldü.
